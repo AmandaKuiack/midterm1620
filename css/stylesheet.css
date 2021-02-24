@@ -17,7 +17,7 @@ body{
 h1{
     font-family: 'Indie Flower', cursive;
 }
-li {
+.navbar ul li {
     list-style: none;
 }
 li a {
@@ -36,9 +36,25 @@ section {
 article {
     background-color: #C9ADA7;
 }
+article ul li {
+    color: teal;
+}
 h2 {
     text-align: center;
 }
+.pancake {
+    float: right;
+}
+.pizza {
+    float: left;
+    padding-right: 0.5em
+}
+.lunch{
+    padding-top: 50px;
+}
+.largep{
+    clear:both;
+} 
 .aboutimg {
     display: block;
     margin-left: auto;
